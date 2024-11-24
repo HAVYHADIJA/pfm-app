@@ -7,8 +7,8 @@ import App from "./app";
 import "./styles/global.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root") // Matches the <div id="root"> in your public/index.html
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById("root") // Matches the <div id="root"> in your public/index.html
 );

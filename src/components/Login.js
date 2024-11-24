@@ -21,7 +21,7 @@ const Login = () => {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        margin="normal"
+        margin="small"
         fullWidth
       />
       <TextField
@@ -29,7 +29,7 @@ const Login = () => {
         type="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
-        margin="normal"
+        margin="small"
         fullWidth
       />
       <Button variant="contained" color="primary" onClick={handleLogin} sx={{ mt: 2 }}>
